@@ -4,11 +4,11 @@ project(HelloVulkan)
 
 set(CMAKE_CXX_STANDARD 17)
 
-set(THIRD_PARTY_DIR "3rdparty")
+set(THIRD_PARTY_DIR "3rdParty")
 
 option(HELLO_VULKAN_BUILD_THIRDPARTY "Build thirdparty" ON)
 if(HELLO_VULKAN_BUILD_THIRDPARTY)
-    add_subdirectory(3rdparty)
+    add_subdirectory(3rdParty)
 endif()
 
 # Vulkan SDK设置
